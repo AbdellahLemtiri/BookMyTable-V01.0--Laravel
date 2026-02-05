@@ -14,3 +14,4 @@ class TypeCuisine extends Model
         return $this->hasMany(Restaurant::class);
     }
 }
+ 
