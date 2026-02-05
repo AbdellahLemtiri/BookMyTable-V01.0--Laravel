@@ -58,7 +58,7 @@ class PhotoController extends Controller
      * Update the specified resource in storage.
      */
     public function update(UpdatePhotoRequest $request, Photo $photo)
-    {
+    { 
         //
     }
 
