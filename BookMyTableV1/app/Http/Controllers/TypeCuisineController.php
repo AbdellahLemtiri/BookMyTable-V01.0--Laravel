@@ -54,7 +54,7 @@ class TypeCuisineController extends Controller
     public function update(UpdateTypeCuisineRequest $request, TypeCuisine $typeCuisine)
     {
         //
-    }
+    } 
 
     /**
      * Remove the specified resource from storage.
