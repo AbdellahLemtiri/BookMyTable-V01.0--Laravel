@@ -8,6 +8,6 @@ use Parental\HasParent;
 
 class Admin extends User
 {
-    use HasParent,HasFactory;
+     use HasParent,HasFactory;
     
 }
