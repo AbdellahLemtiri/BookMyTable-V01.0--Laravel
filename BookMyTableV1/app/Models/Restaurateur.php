@@ -21,3 +21,4 @@ class Restaurateur extends User
         return $this->hasMany(Restaurant::class);
     }
 }
+ 
