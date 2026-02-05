@@ -50,7 +50,7 @@
 
 
                     <div class="space-y-1">
-                        <input id="name" type="text" name="name" value="{{ old('name') }}"
+                        <input id="name" type="text" name="username" value="{{ old('name') }}"
                             placeholder="Nom complet" required autofocus
                             class="w-full bg-[#151515] border border-white/5 rounded-lg px-4 py-3 text-sm text-white outline-none orange-glow transition-all" />
                         <x-input-error :messages="$errors->get('name')" class="mt-1 text-[10px] text-red-500 font-bold uppercase" />
