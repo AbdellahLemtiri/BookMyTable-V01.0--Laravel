@@ -16,7 +16,7 @@ class HomeConteroller extends Controller
         return view('home', compact('restaurants'));
     }
 
-    /**
+    /** 
      * Search restaurants based on criteria.
      */
     public function search(Request $request)
