@@ -23,6 +23,6 @@ class UpdateMenuRequest extends FormRequest
     {
         return [
             //
-        ];
+         ];
     }
 }
