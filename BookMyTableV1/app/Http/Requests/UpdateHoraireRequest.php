@@ -23,6 +23,6 @@ class UpdateHoraireRequest extends FormRequest
     {
         return [
             //
-        ];
+         ];
     }
 }
