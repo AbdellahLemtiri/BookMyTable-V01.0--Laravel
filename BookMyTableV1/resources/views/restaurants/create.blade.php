@@ -219,7 +219,7 @@
                             <img class="hidden w-full h-full object-cover">
                             <div class="placeholder flex items-center justify-center h-full text-gray-600 text-3xl">+</div>
                         </label>
-                        <button type="button" onclick="this.parentElement.remove()" class="absolute -top-2 -right-2 bg-red-600 text-white rounded-full w-8 h-8 flex items-center justify-center shadow-xl">×</button>
+                          <button type="button" onclick="this.parentElement.remove()" class="absolute -top-2 -right-2 bg-red-600 text-white rounded-full w-8 h-8 flex items-center justify-center shadow-xl">×</button>
                     `;
                     container.appendChild(div);
                 },
