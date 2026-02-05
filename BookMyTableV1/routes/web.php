@@ -32,6 +32,11 @@ Route::middleware('client')->prefix('client')->group(function () {
     Route::get('/home/favoris', [ClientConteroller::class, 'mesFavoris'])->name('client.favoris');
     Route::get('/restaurants/{restaurant}', [RestaurantController::class, 'show'])->name('client.restaurant.show');
 });
+
+
+
+
+
 Route::middleware(['restaurateur'])->prefix('restaurateur')->group(function () {
     Route::resource('restaurants', RestaurantController::class);
     Route::resource('horaires', HoraireController::class);
