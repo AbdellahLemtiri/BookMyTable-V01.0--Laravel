@@ -9,7 +9,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 class ClientMiddleware
 {
-    /**
+    /** 
      * Handle an incoming request.
      */
     public function handle(Request $request, Closure $next): Response
