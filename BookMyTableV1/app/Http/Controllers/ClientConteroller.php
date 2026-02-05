@@ -21,7 +21,7 @@ class ClientConteroller extends Controller
             return view('favoris', compact('restaurants'));
         } else {
             return redirect()->back()->with('error', 'Action non autorisée.');
-        }
+        } 
     }
     public function storefavori(Request $request)
     {
